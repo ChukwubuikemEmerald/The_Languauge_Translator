@@ -20,7 +20,6 @@ yoruba_dictionary  = {
     "brother" : "arakunrin",
     "sister" : "arabinrin",
     "school" : "ile-iwe",
-
 }
 
 igbo_dictionary = {
@@ -57,27 +56,26 @@ hausa_dictionary = {
 }
 
 igala_dictionary = {
-"hello": "àgba",
-"bye" : "chegbà tó bà",
-"good morning" : "olodu",
-"good evening" : "olane",
-"welcome" : "olale",
-"thank you" : "Nagó",
-"food" : "Ujewu",
-"well done" : "Olacolo",
-"Water" : "Omi",
-"come" : "wá",
-"go to bed" : "na dachi",
-"father" : "attah",
-"mother" : "iye",
-"boy" : "Ikolobia",
-"girl" : "Ibele",
-"money" : "okó",
-"what is your name" : "Kí ni orukó ẹ",
-"plate" : "uchibu",
-"good afternoon" : "óroka",
-"school" : "chubulu",
-
+    "hello": "àgba",
+    "bye" : "chegbà tó bà",
+    "good morning" : "olodu",
+    "good evening" : "olane",
+    "welcome" : "olale",
+    "thank you" : "Nagó",
+    "food" : "Ujewu",
+    "well done" : "Olacolo",
+    "Water" : "Omi",
+    "come" : "wá",
+    "go to bed" : "na dachi",
+    "father" : "attah",
+    "mother" : "iye",
+    "boy" : "Ikolobia",
+    "girl" : "Ibele",
+    "money" : "okó",
+    "what is your name" : "Kí ni orukó ẹ",
+    "good afternoon"  "óroka",
+    "plate" : "uchibu",
+    "school" : "chubulu",
 }
 
 print("LANGUAGE TRANSLATOR")
