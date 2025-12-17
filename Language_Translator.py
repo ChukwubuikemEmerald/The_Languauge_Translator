@@ -1,0 +1,71 @@
+#fasola omogbolahan
+yoruba_dictionary  = {
+    "hello": "Ẹ ǹlẹ́",
+    "bye" : "Ó dàbọ̀",
+    "good morning" : "e kaaro",
+    "good evening" : "ka a ale",
+    "welcome" : "kaabo",
+    "thank you" : "e dupe",
+    "food" : "Ounjẹ", 
+    "well done" : "daradara ṣe",
+    "how are you" : "Bawo ni",
+    "come" : "wá",
+    "go" : "lọ",
+    "father" : "baba",
+    "mother" : "iya",
+    "boy" : "ọmọkunrin",
+    "girl" : "omobirin",
+    "money" : "owo",
+    "what is your name" : "Kí ni orúkọ rẹ",
+    "brother" : "arakunrin",
+    "sister" : "arabinrin",
+    "school" : "ile-iwe",
+
+}
+
+igbo_dictionary = {
+    
+   
+}
+
+zulu_dictionary = {
+
+}
+
+hausa_dictionary = {
+   
+}
+
+igala_dictionary = {
+
+}
+
+print("LANGUAGE TRANSLATOR")
+print()
+print("select language you want to translate among : Yoruba, Igbo, Zulu, Hausa, Igala")
+print() 
+language = input("INPUT LANGUAGE HERE : ")
+print()
+if language == "Yoruba".lower().upper():
+   translation = input("Input yoruba word or phrase : ").lower().upper()
+   print(yoruba_dictionary[translation])
+
+elif language == "Igbo".lower().upper():
+    translation = input("Input igbo word or phrase : ").lower().upper()
+    print(igbo_dictionary[translation])
+
+elif language == "Zulu".lower().upper():
+    translation = input("Input zulu word or phrase :").lower().upper()
+    print(zulu_dictionary[translation])
+
+elif language == "Hausa".lower().upper():
+    translation = input("Input hausa word or phrase :").lower().upper()
+    print(hausa_dictionary[translation])
+
+elif language == "Igala".lower().upper():
+    translation = input("Input igala word or phrase :").lower().upper()
+    print(igala_dictionary[translation])
+
+else:
+    print()
+    
